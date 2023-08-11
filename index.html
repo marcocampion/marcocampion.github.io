@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Marco Campion">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Marco Campion - Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+        }
+
+        header {
+            background-color: #b3c7b1;
+            height: 40px;
+        }
+
+        .container {
+            display: grid;
+            align-items: center;
+            text-align: center;
+            grid-template-columns: 1fr;
+            column-gap: 0px;
+            margin-top: 10px;
+        }
+
+        #content {
+            margin-left: 13%;
+            padding: 0;
+            margin-bottom: 100px;
+        }
+
+        #name {
+            text-align: center;
+            color: #2a2c7c;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #position {
+            text-align: center;
+            color: #2a2c7c;
+            font-style: italic;
+            font-size: large;
+            margin-top: 10px;
+        }
+
+        #institution {
+            text-align: center;
+            color: #2a2c7c;
+            font-size: large;
+            margin-top: 15px;
+        }
+
+        #research {
+            color: #2a2c7c;
+            border-bottom-style: solid;
+            border-width: 2px;
+        }
+
+        #publications, #events, #career, #teaching, #contact {
+            color: #2a2c7c;
+            border-bottom-style: solid;
+            border-width: 2px;
+            margin-top: 50px;
+        }
+
+        #menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 10%;
+            background-color: #b3c7b1;
+            /*border-top-right-radius: 15px;
+            border-top-left-radius: 15px;*/
+            /*border: 1px solid #555;*/
+            height: 100%; /* Full height */
+            position: fixed; /* Make it stick, even on scroll */
+            overflow: auto; /* Enable scrolling if the sidenav has too much content */
+        }
+
+        #publ-link {
+            color: #000277;
+        }
+
+        #menu-li a {
+            display: block;
+            color: #2a2c7c;
+            padding: 8px 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #menu-li {
+            text-align: center;
+            border-bottom: 1px solid #555;
+        }
+
+        #menu-li a:hover {
+            background-color: #555;
+            color: white;
+        }
+        
+        #menu-li:last-child {
+            /*border-bottom: none;  the last block has no bottom border */
+        }
+
+        #menu-li:first-child {
+            border-top: 1px solid #555;  /*the first block has top border */
+        }
+
+        #content-list {
+            list-style: none;
+            font-size: large;
+        }       
+
+        #content-list li::before {
+            content: "\2022";
+            color: #2a2c7c;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -0.5em;
+            font-size: 20px;
+        }
+
+        #content-research {
+            font-size: large;
+            margin-left: 1em;
+        }
+
+        #research-list {
+            list-style: none;
+            font-size: large;
+        }       
+
+        #research-list li::before {
+            content: "\25A0";
+            color: #2a2c7c;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -0.5em;
+            font-size: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    
+    <header></header>
+    
+    
+    <ul id="menu">
+        <li id="menu-li"><a href="#">Home</a></li>
+        <li id="menu-li"><a href="#research">Research Interests</a></li>
+        <li id="menu-li"><a href="#publications">Publications</a></li>
+        <li id="menu-li"><a href="#events">Events</a><!-- Events I am involved in --></li>
+        <li id="menu-li"><a href="#career">Career</a></li>
+        <li id="menu-li"><a href="#teaching">Teaching and Tutoring</a></li>
+        <li id="menu-li"><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div id="content">
+        <div class="container">
+            <div class="image">
+                <img src="marco_campion.jpg" width="200" height="200">
+            </div>
+            
+            <h1 id="name">Marco Campion</h1>
+            <div id="position">Postdoctoral Researcher</div>
+            <p id="institution">INRIA & École Normale Supérieure | Université PSL, Paris, France</p>
+            
+        </div>
+        <h2 id="research">Research Interests</h2>
+        <p id="content-research">
+            My area of research revolves around the field of formal methods. 
+            In particular, my main area of expertise is <a href="https://www.di.ens.fr/~cousot/abstract_interpret.shtml" target="_blank">Abstract Interpretation</a> which provides 
+            a strong mathematical framework for approximating undecidable or highly complex problems. I am also interested in foundational aspects of computation, with particular attention to the relation between intensional and extensional properties of code.<br>
+            <br>
+            Research topics:
+            <ul id="research-list">
+                <li>Static Program Analysis</li>
+                <li>Abstract Interpretation</li>
+                <li>Program Verification</li>
+                <li>Computability and Formal Languages</li>
+            </ul>
+        </p>
+
+        <h2 id="publications">Publications</h2>
+        <p>
+            <ul id="content-list">
+                <li>Marco Campion, Caterina Urban, Mila Dalla Preda, Roberto Giacobazzi. A Formal Framework to Measure the Incompleteness in Abstract Interpretation. <i>To appear in 30th Static Analysis Symposium</i> (SAS 2023) </li>
+                <li>Marco Campion, Mila Dalla Preda, Roberto Giacobazzi. <a id="publ-link" href="https://ceur-ws.org/Vol-3284/8665.pdf" target="_blank">On the Properties of Partial Completeness in Abstract Interpretation</a>. In <i>23rd Italian Conference on Theoretical Computer Science</i> (ICTCS 2022) <a href="" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:20px;color:red"></a></i></li>
+                <li>Marco Campion, Mila Dalla Preda, Roberto Giacobazzi. <a id="publ-link" href="https://doi.org/10.1145/3498721" target="_blank">Partial (In)Completeness in Abstract Interpretation: Limiting the Imprecision in Program Analysis</a>. In <i>49th ACM SIGPLAN Symposium on Principles of Programming Languages</i> (POPL 2022) <a href="" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:20px;color:red"></a></i></li>
+                <li>Marco Campion, Mila Dalla Preda, Roberto Giacobazzi. <a id="publ-link" href="https://doi.org/10.1007/s11416-021-00377-z" target="_blank">Learning Metamorphic Malware Signatures from Samples</a>. In <i>Journal of Computer Virology and Hacking Techniques, Volume 17, pages 167-183, 2021</i> <a href="" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:20px;color:red"></a></i></li>
+                <li>Marco Campion, Mila Dalla Preda, Roberto Giacobazzi. <a id="publ-link" href="https://doi.org/10.1007/978-3-030-32304-2_7" target="_blank">Abstract Interpretation of Indexed Grammars</a>. In <i>26th Static Analysis Symposium</i> (SAS 2019) <a href="" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:20px;color:red"></a></i></li>
+            </ul>
+        </p>
+
+        <h2 id="events">Events I am involved in</h2>
+        <p>
+            <ul id="content-list">
+                <li>Member of the Program Committee of the Workshop on Attacks and Software Protection (<a href="https://wasp-workshop.github.io/" target="_blank">WASP</a> @ESOTERICS 2023)</li>
+                <li>Member of the Artifact Evaluation Committee of the 28th Static Analysis Symposium (<a href="https://conf.researchr.org/home/sas-2023" target="_blank">SAS 2023</a>)</li>
+                <li>Member of the Artifact Evaluation Committee of the 50th ACM SIGPLAN Symposium on Principles of Programming Languages (<a href="https://popl23.sigplan.org/" target="_blank">POPL 2023</a>)</li>
+                <li>Member of the Artifact Evaluation Committee of the 29th Static Analysis Symposium (<a href="https://conf.researchr.org/home/sas-2022" target="_blank">SAS 2022</a>)</li>
+                <li>Member of the Artifact Evaluation Committee of the 28th Static Analysis Symposium (<a href="https://conf.researchr.org/home/sas-2021" target="_blank">SAS 2021</a>)</li>
+                <li>Invited talk at The <a href="https://software.imdea.org/events/invited-talks/2018/05-29/" target="_blank">IMDEA</a> Software Institute (Madrid, Spain, May 2018), Title of the talk: "<i>Indexed Grammars Abstractions and Relations with other Formal Languages</i>"</li>
+            </ul>
+        </p>
+
+        <h2 id="career">Career</h2>
+        <p>
+            <ul id="content-list">
+                <li>Ph.D. in Computer Science, University of Verona (Italy) under the supervision of Prof. Roberto Giacobazzi (October 2021).
+                    Ph.D. Thesis Title: "<i>Partial (In)Completeness in Abstract Interpretation</i>"</li>
+                <li>Master Degree in Computer Science, University of Verona (Italy) under the supervision of Prof. Mila Dalla Preda (March 2017).
+                    Master Thesis Title: "<i>Learning Rewriting Rules from Widening Automata</i>"</li>
+                <li>Bachelor Degree in Computer Science, University of Verona (Italy) under the supervision of Prof. Massimo Merro (March 2014).
+                    Bachelor Thesis Title: "<i>Statistical Model Checking of DYMO routing protocol for ad-hoc networks with messages loss</i>"</li>
+            </ul>
+        </p>
+
+        <h2 id="teaching">Teaching and Tutoring</h2>
+        <p>
+            <ul id="content-list">
+                <li>Organizer and Tutor of "Cyberchallenge 2023", University of Verona (Spring 2023)</li>
+                <li>Tutor of "Software Security", University of Verona (Fall 2022)</li>
+                <li>Organizer and Tutor of "Cyberchallenge 2022", University of Verona (Spring 2022)</li>
+                <li>Tutor of "Software Security", University of Verona (Fall 2021)</li>
+                <li>Organizer and Tutor of "Cyberchallenge 2021", University of Verona (Spring 2021)</li>
+                <li>Organizer and Tutor of "Cyberchallenge 2020", University of Verona (Spring 2020)</li>
+                <li>Tutor of "Programmazione I", University of Verona (Fall 2019-Spring 2020)</li>
+                <li>Tutor of "Programmazione I", University of Verona (Fall 2018-Spring 2019)</li>
+                <li>Tutor of "Logica", University of Verona (Fall 2017)</li>
+            </ul>
+        </p>
+
+        <h2 id="contact">Contact</h2>
+        <p style="font-size: x-large;margin-left: 1em;"><i class="glyphicon glyphicon-envelope"></i> marco.campion@inria.fr</p>
+    </div>
+
+</body>
+</html>
