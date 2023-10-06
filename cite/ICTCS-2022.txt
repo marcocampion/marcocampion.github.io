@@ -1,0 +1,12 @@
+@inproceedings{campion_properties_2022,
+	title = {On the Properties of Partial Completeness in Abstract Interpretation},
+	volume = {3284},
+	url = {http://ceur-ws.org/Vol-3284/8665.pdf},
+	series = {{CEUR} Workshop Proceedings},
+	pages = {79--85},
+	booktitle = {Proceedings of the 23rd Italian Conference on Theoretical Computer Science, {ICTCS} 2022, Rome, Italy, September 7-9, 2022},
+	publisher = {{CEUR}-{WS}.org},
+	author = {Campion, Marco and Dalla Preda, Mila and Giacobazzi, Roberto},
+	editor = {Lago, Ugo Dal and Gorla, Daniele},
+	year = {2022}
+}

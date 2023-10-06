@@ -1,0 +1,16 @@
+@inproceedings{DBLP:conf/sas/CampionPG19,
+  author       = {Campion, Marco and
+                  Dalla Preda, Mila and
+                  Giacobazzi, Roberto},
+  editor       = {Bor{-}Yuh Evan Chang},
+  title        = {Abstract Interpretation of Indexed Grammars},
+  booktitle    = {Static Analysis - 26th International Symposium, {SAS} 2019, Porto,
+                  Portugal, October 8-11, 2019, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {11822},
+  pages        = {121--139},
+  publisher    = {Springer},
+  year         = {2019},
+  url          = {https://doi.org/10.1007/978-3-030-32304-2\_7},
+  doi          = {10.1007/978-3-030-32304-2\_7}
+}
