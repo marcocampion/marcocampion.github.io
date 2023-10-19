@@ -1,4 +1,4 @@
-@inproceedings{DBLP:conf/sas/CampionPG19,
+@inproceedings{CampionPG19,
   author       = {Campion, Marco and
                   Dalla Preda, Mila and
                   Giacobazzi, Roberto},
