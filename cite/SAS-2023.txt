@@ -1,0 +1,12 @@
+@inproceedings{CampionSAS23,
+	author={Campion, Marco	and Urban, Caterina and Dalla Preda, Mila and Giacobazzi, Roberto},
+	editor={Hermenegildo, Manuel V. and Morales, Jos{\'e} F.},
+	title={A Formal Framework to Measure the Incompleteness of Abstract Interpretations},
+	booktitle={Static Analysis - 30th International Symposium, {SAS} 2023, Cascais, Portugal, October 22-24, 2023, Proceedings},
+	year={2023},
+	publisher={Springer},
+	pages={114--138},
+	series={Lecture Notes in Computer Science},
+        volume={14284},
+	doi={10.1007/978-3-031-44245-2_7}
+}
