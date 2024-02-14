@@ -1,4 +1,4 @@
-@inproceedings{campion_properties_2022,
+@inproceedings{CampionICTCS2022,
 	title = {On the Properties of Partial Completeness in Abstract Interpretation},
 	volume = {3284},
 	url = {http://ceur-ws.org/Vol-3284/8665.pdf},

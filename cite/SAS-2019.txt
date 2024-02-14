@@ -1,4 +1,4 @@
-@inproceedings{CampionPG19,
+@inproceedings{CampionSAS2019,
   author       = {Campion, Marco and
                   Dalla Preda, Mila and
                   Giacobazzi, Roberto},
@@ -11,6 +11,5 @@
   pages        = {121--139},
   publisher    = {Springer},
   year         = {2019},
-  url          = {https://doi.org/10.1007/978-3-030-32304-2\_7},
   doi          = {10.1007/978-3-030-32304-2\_7}
 }

@@ -1,0 +1,13 @@
+@article{CampionPOPL2024,
+  author = {Campion, Marco and Dalla Preda, Mila and Giacobazzi, Roberto and Urban, Caterina},
+  title        = {Monotonicity and the Precision of Program Analysis},
+  journal      = {Proc. {ACM} Program. Lang.},
+  volume       = {8},
+  number       = {{POPL}},
+  pages        = {1629--1662},
+  year         = {2024},
+  doi          = {10.1145/3632897},
+  timestamp    = {Sat, 10 Feb 2024 18:05:26 +0100},
+  biburl       = {https://dblp.org/rec/journals/pacmpl/CampionPGU24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}

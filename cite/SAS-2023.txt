@@ -1,4 +1,4 @@
-@inproceedings{CampionSAS23,
+@inproceedings{CampionSAS2023,
 	author={Campion, Marco	and Urban, Caterina and Dalla Preda, Mila and Giacobazzi, Roberto},
 	editor={Hermenegildo, Manuel V. and Morales, Jos{\'e} F.},
 	title={A Formal Framework to Measure the Incompleteness of Abstract Interpretations},
