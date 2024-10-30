@@ -1,0 +1,20 @@
+@inproceedings{MazzucatoCU24,
+  author       = {Denis Mazzucato and
+                  Marco Campion and
+                  Caterina Urban},
+  editor       = {Nathaniel Benz and
+                  Divya Gopinath and
+                  Nija Shi},
+  title        = {Quantitative Input Usage Static Analysis},
+  booktitle    = {{NASA} Formal Methods - 16th International Symposium, {NFM} 2024,
+                  Moffett Field, CA, USA, June 4-6, 2024, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {14627},
+  pages        = {79--98},
+  publisher    = {Springer},
+  year         = {2024},
+  doi          = {10.1007/978-3-031-60698-4\_5},
+  timestamp    = {Tue, 18 Jun 2024 09:23:49 +0200},
+  biburl       = {https://dblp.org/rec/conf/nfm/MazzucatoCU24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
