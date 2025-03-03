@@ -1,0 +1,19 @@
+@inproceedings{MazzucatoCU24,
+  author       = {Denis Mazzucato and
+                  Marco Campion and
+                  Caterina Urban},
+  editor       = {Roberto Giacobazzi and
+                  Alessandra Gorla},
+  title        = {Quantitative Static Timing Analysis},
+  booktitle    = {Static Analysis - 31st International Symposium, {SAS} 2024, Pasadena,
+                  CA, USA, October 20-22, 2024, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {14995},
+  pages        = {268--299},
+  publisher    = {Springer},
+  year         = {2024},
+  url          = {https://doi.org/10.1007/978-3-031-74776-2\_11},
+  timestamp    = {Fri, 14 Feb 2025 20:49:33 +0100},
+  biburl       = {https://dblp.org/rec/conf/sas/MazzucatoCU24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
