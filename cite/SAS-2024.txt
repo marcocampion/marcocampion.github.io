@@ -1,4 +1,4 @@
-@inproceedings{MazzucatoCU24,
+@inproceedings{SASMazzucatoCU24,
   author       = {Denis Mazzucato and
                   Marco Campion and
                   Caterina Urban},
