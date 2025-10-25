@@ -1,1 +1,13 @@
-ToAppear
+@InProceedings{CampionSAS25,
+	author="Marco Campion and Isabella Mastroeni and Caterina Urban",
+	editor="Hakjoo Oh and Yulei Sui",
+	title="Relating Distances and Abstractions: An Abstract Interpretation Perspective",
+	booktitle="Static Analysis - 32th International Symposium, {SAS} 2025, Singapore, October 13-14, 2025, Proceedings",
+	year="2025",
+	publisher="Springer",
+	series = {Lecture Notes in Computer Science},
+	pages="249--277",
+	volume={16100},
+	doi={https://doi.org/10.1007/978-3-032-07106-4_11},
+	isbn="978-3-032-07106-4"
+}
