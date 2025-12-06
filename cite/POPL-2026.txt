@@ -1,1 +1,9 @@
-ToAppear
+@article{CampionPOPL2026,
+  author = {Campion, Marco and Dalla Preda, Mila and Giacobazzi, Roberto and Urban, Caterina},
+  title        = {A Logic for the Imprecision of Abstract Interpretations},
+  journal      = {Proc. {ACM} Program. Lang.},
+  volume       = {10},
+  number       = {{POPL}},
+  year         = {2026},
+  doi          = {10.1145/3776707}
+}
