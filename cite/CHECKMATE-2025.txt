@@ -1,0 +1,13 @@
+@inproceedings{Altamura2025,
+author = {Altamura, Nicol\`{o} and Bragastini, Enrico and Campion, Marco and Preda, Mila Dalla},
+title = {Assessing the Effectiveness of the Tigress Obfuscator Against MOPSA and BinaryNinja},
+year = {2025},
+isbn = {9798400719066},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+doi = {10.1145/3733817.3762702},
+booktitle = {Proceedings of the 2025 Workshop on Research on Offensive and Defensive Techniques in the Context of Man At The End (MATE) Attacks},
+pages = {29–37},
+numpages = {9},
+series = {CheckMATE '25}
+}
