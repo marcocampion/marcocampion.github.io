@@ -1,1 +1,15 @@
-ToAppear
+@InProceedings{CampionFOSSACS2026,
+	author="Campion, Marco
+	and Mastroeni, Isabella
+	and Pasqua, Michele
+	and Urban, Caterina",
+	editor="Bertrand, Nathalie
+	and Milius, Stefan",
+	title="Abstract Lipschitz Continuity: Combining Semantic and Quantitative Approximations",
+	booktitle="Foundations of Software Science and Computation Structures (FoSSaCS 2026)",
+	year="2026",
+	publisher="Springer",
+	pages="153--177",
+	doi={10.1007/978-3-032-22730-0_8}
+	isbn="978-3-032-22730-0"
+}
