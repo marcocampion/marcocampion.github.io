@@ -1,1 +1,10 @@
-ToAppear
+@InProceedings{CampionSAS2026,
+	author="Marco Campion and Mila Dalla Preda and Roberto Giacobazzi and Antoine Min{\'e} and Caterina Urban",
+	title="Generator-Dense Galois Connections",
+	booktitle="Static Analysis - 33rd International Symposium, {SAS} 2026, Proceedings",
+	year="2026",
+	publisher="Springer",
+	series={Lecture Notes in Computer Science},
+	note="To appear",
+	url={https://inria.hal.science/hal-05703393}
+}

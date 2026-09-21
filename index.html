@@ -164,6 +164,35 @@
             margin-left: -0.5em;
             font-size: 15px;
         }
+
+        /* small screens: horizontal menu on top instead of the fixed sidebar */
+        @media (max-width: 768px) {
+            #menu {
+                position: static;
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            #menu-li {
+                border: none;
+            }
+
+            #menu-li:first-child {
+                border-top: none;
+            }
+
+            #menu-li a {
+                padding: 6px 10px;
+            }
+
+            #content {
+                margin-left: 4%;
+                margin-right: 4%;
+            }
+        }
     </style>
 </head>
 
@@ -218,7 +247,7 @@
         <p>
         <ul id="content-list">
             <li><span class="conference-item">[c9]</span> Marco Campion, Mila Dalla Preda, Roberto Giacobazzi, Antoine Miné, Caterina Urban. <a id="publ-link"
-                href="https://marcocampion.github.io/" target="_blank">Generator-Dense Galois Connections</a>. To appear in the Proceedings of the <i>33rd Static Analysis Symposium</i> (SAS 2026)
+                href="https://inria.hal.science/hal-05703393" target="_blank">Generator-Dense Galois Connections</a>. To appear in the Proceedings of the <i>33rd Static Analysis Symposium</i> (SAS 2026)
                 <a href="/pdf/SAS-2026.pdf" target="_blank"><i class="fa fa-file-pdf-o"
                         style="font-size:20px;color:red"></i></a> <a href="/cite/SAS-2026.txt" target="_blank"><i
                         class="fa fa-quote-right" style="font-size:15px;color:rgb(88, 88, 88)"></i></a>
@@ -313,15 +342,14 @@
         <h2 id="events">Events I am involved in</h2>
         <p>
         <ul id="content-list">
-            <li>Invited talk at the <i>Logic Models and Formal Methods</i> seminar of LIX (École Polytechnique), hosted by the Cosynus team. Talk title: "<i>A journey into the (in)completeness of program analysis by abstract interpretation</i>" (<a
+            <li>Invited talk at the <i>Logic, Models and Formal Methods</i> seminar of LIX (École Polytechnique, Palaiseau, France, May 2026), hosted by the Cosynus team. Talk title: "<i>A journey into the (in)completeness of program analysis by abstract interpretation</i>" (<a
                     href="https://smimram.gitlabpages.inria.fr/proofs-algorithms/seminar/" target="_blank">Link</a>)
             </li>
-            <li>
-                <i class="fa fa-trophy" aria-hidden="true" style="font-size:15px;color:rgb(192, 200, 27)"></i> I was awarded the <i>2025 Radhia Cousot Young Researcher Best Paper Award</i> for my paper <i>Relating Distances and Abstractions: An Abstract Interpretation Perspective</i> at <a 
-                    href="https://2025.splashcon.org/home/sas-2025" target="_blank">SAS 2025</a>
+            <li>Our paper <i>Abstract Lipschitz Continuity: Combining Semantic and Quantitative Approximations</i> was selected, on the basis of the reviews received, for the special issue of the journal <i>Logical Methods in Computer Science</i> (LMCS) devoted to extended versions of selected papers from <a
+                    href="https://etaps.org/2026/conferences/fossacs/" target="_blank">FoSSaCS 2026</a> (extended version in preparation)
             </li>
             <li>Member of the Artifact Evaluation Committee of the 32nd International Conference on Tools and Algorithms
-                for the Construction and Analysis of Systems (<a href="https://etaps.org/2025/conferences/tacas/"
+                for the Construction and Analysis of Systems (<a href="https://etaps.org/2026/conferences/tacas/"
                     target="_blank">TACAS 2026</a>)
             </li>
             <li>Organizer of the GiacoFest workshop at <a
@@ -330,6 +358,10 @@
             <li>Member of the Program Committee of the 53rd ACM SIGPLAN Symposium on Principles of Programming Languages (<a
                 href="https://conf.researchr.org/home/POPL-2026" target="_blank">POPL 2026</a>)
             </li>
+            <li>
+                <i class="fa fa-trophy" aria-hidden="true" style="font-size:15px;color:rgb(192, 200, 27)"></i> I was awarded the <i>2025 Radhia Cousot Young Researcher Best Paper Award</i> for my paper <i>Relating Distances and Abstractions: An Abstract Interpretation Perspective</i> at <a
+                    href="https://2025.splashcon.org/home/sas-2025" target="_blank">SAS 2025</a>
+            </li>
             <li>Member of the Artifact Evaluation Committee of the 31st International Conference on Tools and Algorithms
                 for the Construction and Analysis of Systems (<a href="https://etaps.org/2025/conferences/tacas/"
                     target="_blank">TACAS 2025</a>)
@@ -337,33 +369,33 @@
             <li>Chair of the Artifact Evaluation Committee of the 31st Static Analysis Symposium (<a
                     href="https://conf.researchr.org/home/sas-2024" target="_blank">SAS 2024</a>)
             </li>
-            <li>Invited talk at <i>IRIF</i>, Université Paris Cité (<a href="https://www.irif.fr/seminaires/verif/index"
-                    target="_blank">Verification Seminar</a>, Paris, France, December 2023) presenting our POPL 2024
-                paper
-            </li>
             <li>Member of the Artifact Evaluation Committee of the 30th International Conference on Tools and Algorithms
                 for the Construction and Analysis of Systems (<a href="https://etaps.org/2024/conferences/tacas/"
                     target="_blank">TACAS 2024</a>)
             </li>
-            <li>Member of the Program Committee of the Workshop on Attacks and Software Protection (<a
-                    href="https://wasp-workshop.github.io/" target="_blank">WASP</a> @ESORICS 2023)
+            <li>Invited talk at <i>IRIF</i>, Université Paris Cité (<a href="https://www.irif.fr/seminaires/verif/index"
+                    target="_blank">Verification Seminar</a>, Paris, France, December 2023) presenting our POPL 2024
+                paper
             </li>
             <li>Member of the Artifact Evaluation Committee of the 30th Static Analysis Symposium (<a
                     href="https://conf.researchr.org/home/sas-2023" target="_blank">SAS 2023</a>)
             </li>
+            <li>Member of the Program Committee of the Workshop on Attacks and Software Protection (<a
+                    href="https://wasp-workshop.github.io/" target="_blank">WASP</a> @ESORICS 2023)
+            </li>
             <li>Member of the Artifact Evaluation Committee of the 50th ACM SIGPLAN Symposium on Principles of
                 Programming Languages (<a href="https://popl23.sigplan.org/" target="_blank">POPL 2023</a>)
-            </li>
-            <li>Hub Talk at the <i>35th European Conference on Object-Oriented Programming</i> (<a
-                    href="https://2022.ecoop.org/" target="_blank">ECOOP 2022</a>) presenting our POPL 2022 paper
             </li>
             <li>Member of the Artifact Evaluation Committee of the 29th Static Analysis Symposium (<a
                     href="https://conf.researchr.org/home/sas-2022" target="_blank">SAS 2022</a>)
             </li>
+            <li>Hub Talk at the <i>36th European Conference on Object-Oriented Programming</i> (<a
+                    href="https://2022.ecoop.org/" target="_blank">ECOOP 2022</a>, Berlin, Germany, June 2022) presenting our POPL 2022 paper
+            </li>
             <li>Member of the Artifact Evaluation Committee of the 28th Static Analysis Symposium (<a
                     href="https://conf.researchr.org/home/sas-2021" target="_blank">SAS 2021</a>)
             </li>
-            <li>Invited talk at <i>IMDEA Software Institute</i> (Madrid, Spain, May 2018), Talk title: "<i>Indexed
+            <li>Invited talk at <i>IMDEA Software Institute</i> (Madrid, Spain, May 2018). Talk title: "<i>Indexed
                     Grammars Abstractions and Relations with other Formal Languages</i>" (<a
                     href="https://software.imdea.org/events/invited-talks/2018/05-29/" target="_blank">Link</a>)
             </li>
@@ -376,7 +408,7 @@
             <li>Currently: Postdoctoral researcher at Sorbonne Université, in the <a
                     href="https://www.lip6.fr/recherche/team.php?id=750&LANG=en" target="_blank">APR</a> research team at the <a href="https://www.lip6.fr/?LANG=en" target="_blank">LIP6 Laboratory</a>, 
                     supervised by Antoine Miné (September 2025-present)</li>
-            <li>Postdoctoral researcher at the INRIA & ENS Paris, in the <a
+            <li>Postdoctoral researcher at Inria & ENS Paris, in the <a
                     href="https://team.inria.fr/antique/" target="_blank">ANTIQUE</a> research team, supervised by Caterina
                 Urban (February 2023-August 2025)</li>
             <li>Ph.D. in Computer Science, University of Verona (Italy), supervised by Roberto
@@ -395,17 +427,18 @@
         <h2 id="teaching">Teaching and Tutoring</h2>
         <p>
         <ul id="content-list">
-            <li>Software Security (Laboratory module instructor), University of Verona (Fall 2025)</li>
-            <li>Software Security (Laboratory module instructor), University of Verona (Fall 2024)</li>
-            <li>Software Security (Laboratory module instructor), University of Verona (Fall 2023)</li>
-            <li>Software Security (Laboratory module instructor), University of Verona (Fall 2022)</li>
+            <li>Foundations of Programming and Specification Languages, Master's Degree in Computer Science (Lecturer, co-teaching the course, 18h), University of Verona (Fall 2026)</li>
+            <li>Software Security, Master's Degree in Computer Science (Laboratory module instructor), University of Verona (Fall 2025)</li>
+            <li>Software Security, Master's Degree in Computer Science (Laboratory module instructor), University of Verona (Fall 2024)</li>
+            <li>Software Security, Master's Degree in Computer Science (Laboratory module instructor), University of Verona (Fall 2023)</li>
+            <li>Software Security, Master's Degree in Computer Science (Laboratory module instructor), University of Verona (Fall 2022)</li>
             <li>Cyberchallenge 2022 (Organizer and teaching tutor), University of Verona (Spring 2022)</li>
-            <li>Software Security (Laboratory module instructor), University of Verona (Fall 2021)</li>
+            <li>Software Security, Master's Degree in Computer Science (Laboratory module instructor), University of Verona (Fall 2021)</li>
             <li>Cyberchallenge 2021 (Organizer and teaching tutor), University of Verona (Spring 2021)</li>
             <li>Cyberchallenge 2020 (Organizer and teaching tutor), University of Verona (Spring 2020)</li>
-            <li>Programmazione I (Teaching tutor), University of Verona (Fall 2019-Spring 2020)</li>
-            <li>Programmazione I (Teaching tutor), University of Verona (Fall 2018-Spring 2019)</li>
-            <li>Logica (Teaching tutor), University of Verona (Fall 2017)</li>
+            <li>Programmazione I (Programming I), Bachelor's Degree in Computer Science (Teaching tutor), University of Verona (Fall 2019-Spring 2020)</li>
+            <li>Programmazione I (Programming I), Bachelor's Degree in Computer Science (Teaching tutor), University of Verona (Fall 2018-Spring 2019)</li>
+            <li>Logica (Logic), Bachelor's Degree in Computer Science (Teaching tutor), University of Verona (Fall 2017)</li>
         </ul>
         </p>
 
